@@ -25,10 +25,15 @@ python main.py --dataset cifar10 --noise_mode sym --r 0.2 --penal_coeff 0.3 --T 
 
 ### More results
 
-Base denotes the Entropy-based selection criterion.
 
 
+#### 1. **hyperparameter selection** of T and \epsilon
+<figure class="half">
+    <img src="figure/hyperparameter_selection.jpg">
+</figure>
 
+
+#### 2. **Training curve** where "Base" denotes the Entropy-based selection criterion.
 <figure class="half">
     <img src="figure/all_cifar.jpg">
 </figure>
