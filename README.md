@@ -20,3 +20,14 @@ python main.py --dataset cifar10 --model resnet18 --batch_size 32 --lr 0.02 --wa
 ```
 
 > Note that the code refers to DivideMix (ICLR 2021) and Self-Filtering (ECCV 2022). 
+
+
+### More results
+
+Base denotes the Entropy-based selection criterion.
+
+
+
+<figure class="half">
+    <img src="figure/all_cifar.jpg">
+</figure>
