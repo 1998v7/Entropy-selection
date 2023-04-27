@@ -19,6 +19,7 @@ Noise Labels Settings : `CIFAR-10 & CIFAR-100 (sym 0.2, sym 0.5, pair 0.4, insta
 ```
 python main.py --dataset cifar10 --noise_mode sym --r 0.2 --penal_coeff 0.3 --T 3 --threshold 0.3 --main_type base --gpuid 0
 ```
+More information can be found in "/code/run.sh"
 
 > Note that the code refers to [Dividemix](https://github.com/LiJunnan1992/DivideMix) (ICLR 2020) and [Self-Filtering](https://github.com/1998v7/Self-Filtering) (ECCV 2022). 
 
