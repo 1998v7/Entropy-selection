@@ -1,4 +1,4 @@
-# Entropy-based selection for Learning with Noisy Labels
+# Entropy-based selection criterion
 
 Official PyTorch Implementation of paper "A Joint Training Framework for Learning with Noisy Labels". 
 
